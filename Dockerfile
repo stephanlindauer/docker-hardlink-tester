@@ -4,3 +4,4 @@ RUN yum install -y epel-release
 RUN yum install -y mysql openssl mongodb jq 
 RUN yum -y install puppet tar hostname mysql wget
 RUN yum -y install php-fpm
+RUN yum install -y yum-plugin-ovl
